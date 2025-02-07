@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{A44698E8-9A77-4E32-AD5B-69A9A4A87335}|TDD.test\\TDD.test.csproj|solutionrelative:tdd.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|c:\\users\\administrateur\\documents\\code\\tdd\\tdd\\tdd\\rechercheville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|solutionrelative:tdd\\rechercheville.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|c:\\users\\administrateur\\documents\\code\\tdd\\tdd\\tdd\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|solutionrelative:tdd\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|c:\\users\\administrateur\\documents\\code\\tdd\\tdd\\tdd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31428A11-DEF6-4DB9-B340-E650351B5A21}|TDD\\TDD.csproj|solutionrelative:tdd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "TDD\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD\\NotFoundException.cs",
+              "RelativeToolTip": "TDD\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:20:49.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RechercheVille.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD\\RechercheVille.cs",
+              "RelativeDocumentMoniker": "TDD\\RechercheVille.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD\\RechercheVille.cs",
+              "RelativeToolTip": "TDD\\RechercheVille.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:07:43.963Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +62,14 @@
               "RelativeDocumentMoniker": "TDD.test\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD.test\\UnitTest1.cs",
               "RelativeToolTip": "TDD.test\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T13:03:36.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\Code\\TDD\\TDD\\TDD\\Program.cs",
               "RelativeDocumentMoniker": "TDD\\Program.cs",
