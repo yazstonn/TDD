@@ -20,7 +20,19 @@ namespace TDD
         {
             if (mot.Length < 2) 
             {
-                throw new NotFoundException();      
+                throw new NotFoundException();
+            }
+            else
+            {
+                List<string> villes = new List<string>();
+                foreach (var item in _villes)
+                {
+                    if (item.StartsWith(mot))
+                    {
+                        villes.Add(item);
+                    }
+                }
+                return villes;
             }
 
             throw new NotImplementedException();
