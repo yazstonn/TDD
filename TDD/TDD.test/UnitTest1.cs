@@ -27,5 +27,15 @@ namespace TDD.test
         {
            Assert.Throws<NotFoundException>(() => _rechercheVille.Rechercher(a));
         }
+
+
+        [TestCase("Va", new string[] { "Valence" , "Vancouver" })]
+        [TestCase("Pa", new string[] { "Paris" })]
+        [TestCase("Vale", new string[] { "Valence" })]
+        [TestCase("Is", new string[] { "Istanbul", "Islamabad" })]
+        public void GetVilleWithPrefix(string a,string[] b) 
+        {
+            CollectionAssert.IsSubsetOf(b, _rechercheVille.Rechercher(a));
+        }
     }
 }
