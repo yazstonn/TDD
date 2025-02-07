@@ -37,5 +37,15 @@ namespace TDD.test
         {
             CollectionAssert.IsSubsetOf(b, _rechercheVille.Rechercher(a));
         }
+
+
+        [TestCase("va", new string[] { "Valence", "Vancouver" })]
+        [TestCase("PA", new string[] { "Paris" })]
+        [TestCase("VaLe", new string[] { "Valence" })]
+        [TestCase("is", new string[] { "Istanbul", "Islamabad" })]
+        public void IsCaseInsensitive(string a, string[] b)
+        {
+            CollectionAssert.IsSubsetOf(b, _rechercheVille.Rechercher(a));
+        }
     }
 }
