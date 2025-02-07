@@ -27,7 +27,7 @@ namespace TDD
                 List<string> villes = new List<string>();
                 foreach (var item in _villes)
                 {
-                    if (item.StartsWith(mot))
+                    if (item.ToLower().StartsWith(mot.ToLower()))
                     {
                         villes.Add(item);
                     }
