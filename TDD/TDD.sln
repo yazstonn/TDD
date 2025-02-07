@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD", "TDD\TDD.csproj", "{31428A11-DEF6-4DB9-B340-E650351B5A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.test", "TDD.test\TDD.test.csproj", "{A44698E8-9A77-4E32-AD5B-69A9A4A87335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{31428A11-DEF6-4DB9-B340-E650351B5A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31428A11-DEF6-4DB9-B340-E650351B5A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31428A11-DEF6-4DB9-B340-E650351B5A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44698E8-9A77-4E32-AD5B-69A9A4A87335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44698E8-9A77-4E32-AD5B-69A9A4A87335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44698E8-9A77-4E32-AD5B-69A9A4A87335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44698E8-9A77-4E32-AD5B-69A9A4A87335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
