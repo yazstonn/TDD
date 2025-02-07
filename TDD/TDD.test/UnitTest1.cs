@@ -25,7 +25,7 @@ namespace TDD.test
         [TestCase("k")]
         public void ExceptionIfLessThan2Char(string a)
         {
-           var exception = Assert.Throws<NotFoundException>(() => _rechercheVille.Rechercher(a));
+           Assert.Throws<NotFoundException>(() => _rechercheVille.Rechercher(a));
         }
     }
 }
